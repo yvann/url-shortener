@@ -1,0 +1,19 @@
+{
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "search.exclude": {
+    "dist/": true,
+    "node_modules/": true,
+    "tsconfig.tsbuildinfo": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "files.exclude": {
+    "dist/": true,
+    "node_modules/": true,
+    "tsconfig.tsbuildinfo": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
+}

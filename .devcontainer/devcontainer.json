@@ -1,0 +1,8 @@
+{
+  "name": "URL-Shortener",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "overrideCommand": true,
+  "workspaceFolder": "/workspace",
+  "extensions": ["esbenp.prettier-vscode", "arcanis.vscode-zipfs"]
+}

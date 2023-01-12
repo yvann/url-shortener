@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "moduleResolution": "Node16",
+    "module": "Node16",
+
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": false,
+
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}
