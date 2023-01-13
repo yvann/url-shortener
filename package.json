@@ -14,7 +14,7 @@
     "compile:watch": "yarn run compile --watch",
     "test": "yarn node --no-warnings --experimental-vm-modules $(yarn bin jest) --no-cache",
     "test:watch": "yarn run test --watchAll",
-    "start": "yarn compile && yarn node ./build/entrypoint.js"
+    "start": "yarn && yarn compile && yarn node ./build/entrypoint.js"
   },
   "devDependencies": {
     "@swc/core": "1.3.26",

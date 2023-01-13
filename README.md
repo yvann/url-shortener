@@ -7,7 +7,7 @@
 Start the application with:
 
 ```
-docker compose start
+docker compose up
 ```
 
 Then visit http://localhost:3500/api/shorturl/analytics
