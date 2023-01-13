@@ -2,6 +2,12 @@
 
 > Assuming **Docker** is installed and is running
 
+## Fetch
+
+```
+git clone git@github.com:yvann/url-shortener.git && cd ./url-shortener
+```
+
 ## Run
 
 Start the application with:
