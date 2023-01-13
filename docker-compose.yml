@@ -4,6 +4,10 @@ services:
   app:
     image: node:18
     command: yarn run start
+    ports:
+      - 3500:3000
+    environment:
+      HTTP_PORT: 3000
     working_dir: /workspace
     volumes:
       - .:/workspace

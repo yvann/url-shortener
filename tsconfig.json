@@ -7,10 +7,8 @@
 
     "declaration": true,
     "declarationMap": true,
-    "experimentalDecorators": true,
-    "noImplicitThis": false,
 
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "build"
   }
 }
